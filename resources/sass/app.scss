@@ -1,1 +1,10 @@
-//
+// Inizio reset
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+// Fine reset
+
+@import './partials/header';
+@import './partials/main'

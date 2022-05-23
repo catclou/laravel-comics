@@ -1,0 +1,60 @@
+// Inizio stile header
+header {
+    width: 100vw;
+    
+    
+    .first_section_header {
+        display: flex;
+        color: white;
+        background-color: #0282f9;
+        height: 4vh;
+        justify-content: flex-end;
+        align-items: center;
+
+        span {
+            text-transform: uppercase;
+            margin-left: 15px;
+            margin-right: 5%;
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
+    }
+
+    .second_section_header {
+        width: 90%;
+        // height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5px;
+
+        img {
+            height: 50px;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+
+            li {
+                display: inline-block;
+                text-transform: uppercase;
+                padding: 10px;
+                
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                    &:hover {
+                        color: #0282f9;
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+// Fine stile header
