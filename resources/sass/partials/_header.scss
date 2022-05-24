@@ -46,6 +46,7 @@ header {
                     text-decoration: none;
                     color: black;
                     font-weight: bold;
+                    // l'hover mi funziona solo sul tag a, non sull'li
                     &:hover {
                         color: #0282f9;
                         text-decoration: underline;

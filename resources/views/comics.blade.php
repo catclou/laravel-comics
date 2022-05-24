@@ -37,15 +37,16 @@
     <!-- Main -->
     <main>
 
+        <!-- hero  -->
         <section class="hero">
-            <h1>Attenzione! Qui va messo il background all'hero, ma me lo compila all'infinito...</h1>
         </section>
 
         <section class="current_series_section">
             <span>current series</span>
             <div class="card_container">
-                
+
             </div>
+            <button>load more</button>
         </section>
     </main>
 

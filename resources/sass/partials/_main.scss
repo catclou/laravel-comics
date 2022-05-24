@@ -1,14 +1,13 @@
 main {
 
     .hero {
-        height: 30vh;
+        height: 40vh;
         width: 100vw;
-        border: 3px solid green;
         display: flex;
         justify-content: center;
         align-items: center;
-        // ATTENZIONE: non riesco a mettere il background, me lo compila all'infinito!
-        // background-image: url('../../../public/images/jumbotron.jpg');
+        background-image: url('/images/jumbotron.jpg');
+        background-size: cover;
     }
 
     .current_series_section {
@@ -24,8 +23,9 @@ main {
             background-color: #0282f9;
             margin-left: 10%;
             margin-right: auto;
-            margin-top: -50px;
+            margin-top: -25px;
             font-weight: bold;
+            color: white;
         }
 
         .card_container {
@@ -33,6 +33,17 @@ main {
             width: 80%;
             margin: 30px auto;
             border: 1px dotted cadetblue;
+        }
+
+        button {
+            width: 10%;
+            padding: 5px;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin: 0 auto;
+            background-color: #0282f9;
+            color: white;
+            margin-bottom: 10px;
         }
     }
 }
